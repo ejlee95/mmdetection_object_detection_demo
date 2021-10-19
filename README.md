@@ -43,7 +43,7 @@ conda env에 nvcc 설치를 위한 cudatoolkit 설치
 ```
 setup.py 내용 변경  
 ```
-    torch.utils.cpp_extension.CUDA_HOME = '/data2/jane/anaconda3/envs/cctab/pkgs/cuda-toolkit' 추가  
+    torch.utils.cpp_extension.CUDA_HOME = '/userhome/anaconda3/envs/cctab/pkgs/cuda-toolkit' 추가  
 ```
 다시 mmdetection dependency 설치  
 ```
